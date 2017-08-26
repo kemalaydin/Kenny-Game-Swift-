@@ -100,7 +100,7 @@ class ViewController: UIViewController {
             
             // --- Oyun Bittiğinde Alert Göster ---
             let alert = UIAlertController(title: "Oyun Bitti", message: "Oyun Süresi Oldu. Yeni Oyun Başlatmak İçin Tekrar Tuşuna Basınız", preferredStyle: UIAlertControllerStyle.alert)
-            let closeButton = UIAlertAction(title: "Kapat", style: UIAlertActionStyle.cancel, handler: { (closeButton) in
+            let closeButton = UIAlertAction(title: "Çıkış", style: UIAlertActionStyle.cancel, handler: { (closeButton) in
                 exit(0)
             })
             let restartButton = UIAlertAction(title: "Tekrar", style: UIAlertActionStyle.default, handler: { (restartButton) in
